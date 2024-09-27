@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz da Empresa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagem/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <nav id="cabecalho">
+        <a href="index.html"><img src="imagem/logo.png" alt=""></a>
+        <a href="index.html"><button class="button1">Início</button></a>
+        <a href="produtos.html"><button class="button1">Produtos</button></a>
+        <a href="contato.html"><button class="button1">Contato</button></a>
+    </nav>
+
+    <section class="quiz-section">
+        <h2>Quiz da Marking Store:</h2>
+        <form id="quiz-form">
+           <section class="question">
+              <h3>1. Quantas sessões a no nosso site?</h3>
+              <label><input type="radio" name="q1" value="A" onclick="disableOptions('q1'), playSound()">A) 12 Sessões</label><br>
+              <label><input type="radio" name="q1" value="B" onclick="disableOptions('q1'), playSound()">B) 3 Sessões</label><br>
+              <label><input type="radio" name="q1" value="C" onclick="disableOptions('q1'), playSound()">C) 10 Sessões</label><br>
+              <label><input type="radio" name="q1" value="D" onclick="disableOptions('q1'), playSound()">D) 5 Sessões</label>
+           </section>
+           <section class="question">
+             <h3>2. Quantos produtos tem em nosso site?</h3>
+             <label><input type="radio" name="q2" value="A" onclick="disableOptions('q2'), playSound()">A) 10 Produtos</label><br>
+             <label><input type="radio" name="q2" value="B" onclick="disableOptions('q2'), playSound()">B) 50 Produtos</label><br>
+             <label><input type="radio" name="q2" value="C" onclick="disableOptions('q2'), playSound()">C) 20 Produtos</label><br>
+             <label><input type="radio" name="q2" value="D" onclick="disableOptions('q2'), playSound()">D) 12 Produtos</label>
+         </section>
+         <section class="question">
+            <h3>3. Qual é o mascote da Marking Store?</h3>
+            <label><input type="radio" name="q3" value="A" onclick="disableOptions('q3'), playSound()">A) Tigre</label><br>
+            <label><input type="radio" name="q3" value="B" onclick="disableOptions('q3'), playSound()">B) Leopardo</label><br>
+            <label><input type="radio" name="q3" value="C" onclick="disableOptions('q3'), playSound()">C) Leão</label><br>
+            <label><input type="radio" name="q3" value="D" onclick="disableOptions('q3'), playSound()">D) Onça</label>
+        </section>
+        <section class="question">
+            <h3>4. Sobre oq é o nosso site?</h3>
+            <label><input type="radio" name="q4" value="A" onclick="disableOptions('q4'), playSound()">A) Site E-commerce</label><br>
+            <label><input type="radio" name="q4" value="B" onclick="disableOptions('q4'), playSound()">B) Apresentação da Plataforma</label><br>
+            <label><input type="radio" name="q4" value="C" onclick="disableOptions('q4'), playSound()">C) Site de Negociação</label><br>
+            <label><input type="radio" name="q4" value="D" onclick="disableOptions('q4'), playSound()">D) Site de Vendas</label>
+        </section>
+        <section class="question">
+            <h3>5. Qual são as categorias do site?</h3>
+            <label><input type="radio" name="q5" value="A" onclick="disableOptions('q5'), playSound()">A) Produtos para Casa, Umidificadores e Tecnologia</label><br>
+            <label><input type="radio" name="q5" value="B" onclick="disableOptions('q5'), playSound()">B) Produtos para Casa, Umidificadores e Fones</label><br>
+            <label><input type="radio" name="q5" value="C" onclick="disableOptions('q5'), playSound()">C) Móveis, Purificador e Tecnologia</label><br>
+            <label><input type="radio" name="q5" value="D" onclick="disableOptions('q5'), playSound()">D) Produtos para Casa, Purificador e Tecnologia</label>
+        </section>
+        <section class="question">
+            <h3>6. Qual é a cor da camiseta do mascote?</h3>
+            <label><input type="radio" name="q6" value="A" onclick="disableOptions('q6'), playSound()">A) Perta</label><br>
+            <label><input type="radio" name="q6" value="B" onclick="disableOptions('q6'), playSound()">B) Cinza</label><br>
+            <label><input type="radio" name="q6" value="C" onclick="disableOptions('q6'), playSound()">C) Branca</label><br>
+            <label><input type="radio" name="q6" value="D" onclick="disableOptions('q6'), playSound()">D) Amarelo</label>
+        </section>
+        <section class="question">
+            <h3>7. Qual é a cor da letra na camiseta do mascote?</h3>
+            <label><input type="radio" name="q7" value="A" onclick="disableOptions('q7'), playSound()">A) Perta</label><br>
+            <label><input type="radio" name="q7" value="B" onclick="disableOptions('q7'), playSound()">B) Cinza</label><br>
+            <label><input type="radio" name="q7" value="C" onclick="disableOptions('q7'), playSound()">C) Branca</label><br>
+            <label><input type="radio" name="q7" value="D" onclick="disableOptions('q7'), playSound()">D) Amarelo</label>
+        </section>
+        <section class="question">
+            <h3>8. Tem um umidificador interativo para crianças em nossa loja, qual é o formato dele é de:</h3>
+            <label><input type="radio" name="q8" value="A" onclick="disableOptions('q8'), playSound()">A) Nave</label><br>
+            <label><input type="radio" name="q8" value="B" onclick="disableOptions('q8'), playSound()">B) Astronauta</label><br>
+            <label><input type="radio" name="q8" value="C" onclick="disableOptions('q8'), playSound()">C) Caminhão</label><br>
+            <label><input type="radio" name="q8" value="D" onclick="disableOptions('q8'), playSound()">D) Planeta</label>
+        </section>
+        <section class="question">
+            <h3>9. Quais são as perguntas de nosso formulário?</h3>
+            <label><input type="radio" name="q9" value="A" onclick="disableOptions('q9'), playSound()">A) Nome, E-mail e Pergunta</label><br>
+            <label><input type="radio" name="q9" value="B" onclick="disableOptions('q9'), playSound()">B) Nome, E-mail e Mensagem</label><br>
+            <label><input type="radio" name="q9" value="C" onclick="disableOptions('q9'), playSound()">C) Telefone, E-mail e Mensagem</label><br>
+            <label><input type="radio" name="q9" value="D" onclick="disableOptions('q9'), playSound()">D) Nome, Telefone e Mensagem</label>
+        </section>
+        <section class="question">
+            <h3>10. Quais são as plataformas de divulgação da empresa?</h3>
+            <label><input type="radio" name="q10" value="A" onclick="disableOptions('q10'), playSound()">A) Facebook, Twitter, Instagram e Loja</label><br>
+            <label><input type="radio" name="q10" value="B" onclick="disableOptions('q10'), playSound()">B) Facebook, Tiltok, Instagram e Site</label><br>
+            <label><input type="radio" name="q10" value="C" onclick="disableOptions('q10'), playSound()">C) Facebook, Twitter, Telegram e Site</label><br>
+            <label><input type="radio" name="q10" value="D" onclick="disableOptions('q10'), playSound()">D) Pinterest, Twitter, Telegram e Loja</label>
+        </section>
+
+         <button type="button" class="active" id="botao1" onclick="SubmitQuiz()">Enviar Respostas</button>
+         <button type="submit" class="disabled" id="botao2" disabled>Responder Novamente</button>
+
+ 
+        </form>
+        <audio id="venceusom" src="som/venceu.mp3" preload="auto"></audio>
+        <audio id="selecionasom" src="som/seleciona.mp3" preload="auto"></audio>
+        <audio id="perdeusom" src="som/perdeu.mp3" preload="auto"></audio>
+ 
+        <section id="result"></section>
+    </section>
+
+    <footer>
+        <a href="index.html"><img src="imagem/footer.png" alt=""></a>
+        <h2>Mais dúvidas sobre nossa empresa?</h2>
+        <h4>Siga nossas redes socias e conheça nossa plataforma e loja online...</h4>
+        <a href="https://m.facebook.com/100094217463702"><button class="button3">Facebook</button></a>
+        <a href="https://www.tiktok.com/@markingstoretiktok?_t=8jKsXZuvHLK&_r=1"><button class="button3">TikTok</button></a>
+        <a href="https://www.instagram.com/markingstoreoficial/"><button class="button3">Instagram</button></a>
+        <a href="https://www.markingstore.com.br/"><button class="button3">Plataforma</button></a>
+    </footer>
+
+    <script src="script.js"></script>    
+</body>
+</html>
