@@ -26,7 +26,7 @@ body {
 #cabecalho {
     width: auto;
     height: 290px;
-    background-color: #474747;
+    background-color: #919191;
     color: #ffffff;
     text-align: center;
 }
@@ -50,7 +50,7 @@ body {
 .button1{
     width: 150px;
     height:50px;
-    background-color: #474747;
+    background-color: #919191;
     border: none;
     color: rgb(255, 255, 255);
     margin-top: 20px;
@@ -66,7 +66,7 @@ body {
 
 .button1:hover{
     background-color: #ffffff;
-    color: #474747;
+    color: #919191;
 }
 
 #banner{
