@@ -38,7 +38,7 @@ function SubmitQuiz() {
     }
  
     let result = document.getElementById('result');
-    result.innerHTML = `Você acertou ${score} de 7 perguntas.`;
+    result.innerHTML = `Você acertou ${score} de 10 perguntas.`;
 
     if (score === 10) {
         let successSound = document.getElementById('venceusom');
